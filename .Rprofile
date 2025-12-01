@@ -24,10 +24,14 @@ required_packages <- c(
 
 # Function to check and install missing packages
 .check_packages <- function() {
-  missing <- required_packages[!required_packages %in% installed.packages()[, "Package"]]
+  # FIX: Explicitly call installed.packages() from the utils package
+  missing <- required_packages[!required_packages %in% utils::installed.packages()[, "Package"]]
+  
   if (length(missing) > 0) {
     message("Installing missing packages: ", paste(missing, collapse = ", "))
-    install.packages(missing, dependencies = TRUE)
+    
+    # Note: install.packages() is also in utils, so fully qualify it for safety
+    utils::install.packages(missing, dependencies = TRUE)
   }
 }
 
