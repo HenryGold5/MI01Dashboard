@@ -1,0 +1,33 @@
+# R and RStudio files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Quarto output
+_site/
+_freeze/
+/.quarto/
+
+# Shiny
+rsconnect/
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# R package development
+*.tar.gz
+*.Rcheck/
+man/

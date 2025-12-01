@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "metadata": {
+    "appmode": "shiny",
+    "entrypoint": "app.R",
+    "primary_rmd": null,
+    "primary_html": null,
+    "content_category": "site",
+    "has_parameters": false
+  },
+  "quarto": {
+    "version": "1.3",
+    "engines": ["knitr"]
+  },
+  "files": {
+    "app.R": {
+      "checksum": ""
+    },
+    "CountyOutputDashboard.qmd": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/votingResultsCountyWide.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/voterTurnout2024.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/spendDataVA.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/numEmployeesCounty.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/numEstablishmentsCounty.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/payRollCounty.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/CountyDemographics_ageSex.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/CountyDemographics_bachelorType.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/CountyDemographics_educationAttainment.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/CountyDemographics_householdIncome.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/CountyDemographics_medianIncome.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/CountyDemographics_hispanicLatino.rds": {
+      "checksum": ""
+    },
+    "data/ExcelFiles/CountyDemographics_race.rds": {
+      "checksum": ""
+    },
+    "data/Shapefiles/district1Counties_lite.rds": {
+      "checksum": ""
+    },
+    "data/Shapefiles/district1Presincts_lite.rds": {
+      "checksum": ""
+    },
+    "data/Shapefiles/district1Metro_lite.rds": {
+      "checksum": ""
+    },
+    "data/Shapefiles/district1Overall_lite.rds": {
+      "checksum": ""
+    },
+    "data/Shapefiles/educationDataset_lite.rds": {
+      "checksum": ""
+    }
+  },
+  "users": null
+}
